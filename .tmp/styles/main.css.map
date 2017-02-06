@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA;EAEG,gBAAe;CAChB;;AAHF;EAMG,YAAW;EACX,sBAAqB;EACrB,iBAAgB;CACjB","file":"main.css","sourcesContent":[".bar-chart {\n\trect {\n\t  fill: steelblue;\n\t}\n\n\ttext {\n\t  fill: white;\n\t  font: 10px sans-serif;\n\t  text-anchor: end;\n\t}\n}"]}
