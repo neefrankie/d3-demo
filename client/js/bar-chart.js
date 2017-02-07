@@ -20,18 +20,19 @@ function barChart(container) {
       });
 
   bar.append('rect')
-    .attr('width', (d) => {
-      return x(d);
-    })
-    .attr('height', barHeight - 1);
+      .attr('width', (d) => {
+        return x(d);
+      })
+      .attr('height', barHeight - 1);
 
   bar.append("text")
-    .attr('x', (d) => {
-      return x(d) - 3;
-    })
-    .attr('y', barHeight / 2)
-    .attr('dy', '.35em')
-    .text(d => d);  
+      .attr('fill', '#fff')
+      .attr('x', (d) => {
+        return x(d) - 3;
+      })
+      .attr('y', barHeight / 2)
+      .attr('dy', '.35em')
+      .text(d => d);  
 }
 
 export default barChart;
