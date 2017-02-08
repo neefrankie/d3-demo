@@ -1,0 +1,11 @@
+{
+	"China bond yields and spread": {
+		"title": "China bond yields and spread",
+		"subtitle": "Spot rate, %",
+  		"source": "CEIC/China Central Depositary",
+  		"labels": [
+  			"5-yr treasury",
+  			"AA- rated"
+  		]
+	}
+}

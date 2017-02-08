@@ -19,7 +19,7 @@ function barCharExternalData(container, dataFile) {
       console.log(err);
       return;
     }
-    console.log(data);
+    // console.log(data);
 
     x.domain([0, d3.max(data, d => d.value)]);
     chart.attr('height', barHeight * data.length);
