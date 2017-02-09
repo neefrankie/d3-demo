@@ -18,6 +18,7 @@ function barChart(container) {
       .attr('transform', (d, i) => {
         return "translate(0," + i * barHeight + ")";
       });
+  console.log(bar.nodes());
 
   bar.append('rect')
       .attr('width', (d) => {

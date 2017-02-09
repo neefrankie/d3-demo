@@ -12,3 +12,61 @@
 svg {
 	border: 1px solid;
 }
+
+$greyOpacity: 0.6;
+$noteOpacity: 0.4;
+$headlineGrey: #43423e;
+$baselineGrey: #74736c;
+
+.chart-title {
+	dominant-baseline: hanging;
+	font-size: 20px;
+	fill: $headlineGrey;
+}
+
+.chart-subtitle {
+	dominant-baseline: hanging;
+	font-size: 15px;
+	fill: $baselineGrey;
+}
+
+.chart-source {
+	font-size: 10px;
+	fill-opacity: 0.4
+}
+
+.axis {
+	.domain {
+		fill: none;
+		stroke: $baselineGrey;
+	}
+}
+
+.tick {
+	line {
+		fill: none;
+		stroke: #000;
+		stroke-opacity: 0.2;
+	}
+	text {
+		fill-opacity: $greyOpacity;
+		font-size: 12;
+	}
+}
+
+.y.axis {
+	.tick line {
+		stroke-dasharray: 1;
+	}
+
+	.domain {
+		fill: none;
+		stroke-opacity: 0;
+	}
+
+	.highlight-line {
+		fill: none;
+		stroke: $baselineGrey;
+	}
+}
+
