@@ -125,6 +125,7 @@ function autoGraph(root, dataFile) {
 
       keyElements.append('text')
           .attr('x', keyLineLength + 3)
+          .attr('font-size', SVGStyles.keyTextSize)
           .text(d => d.label);
 
       keyElements.append('line')

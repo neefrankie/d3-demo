@@ -17,3 +17,5 @@ barChartAxis('#bar-chart__axis', 'bar-chart.tsv');
 lineChart('#line-chart', 'apple-stock.tsv');
 autoGraph('#uk-gdp-growth', 'uk-gdp-growth.json');
 autoGraph('#china-bound-yields', 'china-bound-yields-and-spread.json');
+
+console.log(document.defaultView);

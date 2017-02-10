@@ -8,9 +8,5 @@ export default {
     '#4e86b6'
   ],
 
-  keyTextSize: 12,
-
-  keyText: {
-    'font-size': 12
-  }
+  keyTextSize: 12
 };
